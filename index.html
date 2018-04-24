@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schwarzpulver Improtheater</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="jquery/jquery-3.1.1.min.js"></script>
+    <script src="semantic/semantic.min.js"></script>
+    <script>
+        $(document)
+            .ready(function () {
+                $(window).scroll(function (event) {
+                    var scroll = $(window).scrollTop();
+                    $('.masthead').css("background-position-y", -0.1 * scroll + "px");
+                });
+                $('.ui.accordion').accordion();
+
+            });
+
+    </script>
+
+
+</head>
+<body>
+
+<div id="header">
+    <div class="ui text container center aligned">
+        <h1 class="ui huge dividing header">SCHWARZPULVER
+            <div class="sub header">Das Improtheather der HTWK</div>
+        </h1>
+    </div>
+</div>
+
+<div class="masthead">
+
+    <div class="ui text container">
+
+        <div class="ui centered stackable grid">
+            <div class="row">
+                <div class="nine wide center aligned column" id="logocontainer">
+                    <img src="img/logo_plain.jpg" id="logo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="ui centered grid">
+                    <div class="eight wide center aligned column">
+
+                        <a class="item" href="https://www.facebook.com/schwarzpulver1014/" target="_blank"><img
+                                src="img/facebook.png" class="social-media-icon"></a>
+
+                    </div>
+                    <div class="eight wide center aligned column">
+
+                        <a class="item" href="https://www.youtube.com/channel/UCEQJEZdvE_V_CS8HZvdpdSw/videos"
+                           target="_blank"><img
+                                src="img/youtube.png" class="social-media-icon"></a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="about" class="section">
+    <div class="ui text container">
+        <h1 class="ui red header center aligned">
+            Wir lieben Improvisationstheather
+            <div class="sub header">Und möchten es mit euch teilen.</div>
+            <img src="img/heart_white.png">
+        </h1>
+        <div class="ui center aligned secondary red segment">
+            Wir sind Schwarzpulver, das studentische Improvisationstheater in Leipzig. Erst vor 2 Jahren gegründet
+            und schon ziemlich awesome. Wir improvisieren in klassischer Improtheater-manier und präsentieren unsere
+            bescheidenen Skills regelmäßig auf den Bühnen Leipzigs. Als Hochschulgruppe der
+            HTWK Leipzig proben wir wöchtenlich in den Räumen der Hochschule. Unsere Mitglieder studieren jedoch
+            nicht nur an der HTWK, sondern auch an der Universität Leipzig und anderen Hochschulen. Wenn du gerne
+            Improvisationstheater siehst oder spielst, bist du hier
+            genau richtig.
+        </div>
+    </div>
+</div>
+<div id="portofolio" class="section">
+    <div class="ui container">
+
+        <div class="ui vertical stripe segment">
+            <div class="ui equal width stackable grid">
+                <div class="center aligned row">
+                    <div class="column">
+
+                        <div class="ui inverted segment porto-description">
+                            <h1>Mitmachen</h1>
+                            <p>Wir freuen uns immer über neue talentierte Mitglieder für unsere Gruppe.
+                                Es sind alle
+                                Leipziger Studierende willkommen. Egal ob du bereits
+                                Theatererfahrung mitbringst oder nicht, das Wichtigste ist der Spaß am
+                                improvisieren. Wir
+                                treffen uns jeden Donnerstag um 19:15 Uhr in der HTWK zum Proben. Wenn
+                                du auch Lust
+                                hast,
+                                mitzumachen, dann schick uns einfach eine kleine Nachricht.</p>
+                        </div>
+                        <a class="teal ui huge button" href="mailto:schwarzpulver-htwk@web.de"><i
+                                class="mail icon"></i>Anmelden</a>
+                    </div>
+                    <div class="column">
+                        <div class="ui inverted segment porto-description">
+                            <h1>Anschauen</h1>
+                            <p>Nur in seinem stillen Kämmerlein zu improvisieren macht keinen Spaß. Deshalb
+                                stellen
+                                wir uns
+                                gerne und regelmäßig unter die Rampenlichter der Leipziger Bühnen. Wenn du
+                                wissen
+                                möchtest, wo und wann unsere nächsten Auftritte stattfinden, da schau einfach
+                                auf
+                                unserer Facebook-Page nach.</p>
+                        </div>
+                        <a href="https://www.facebook.com/schwarzpulver1014/" target="_blank">
+                            <button class="ui huge facebook button"><i class="facebook icon"></i>Auf Facebook
+                            </button>
+                        </a>
+                    </div>
+
+                    <div class="column">
+                        <div class="ui inverted segment porto-description">
+                            <h1>Buchen</h1>
+                            <p>Wir haben verschiedene Programme im
+                                Angebot, vom abendfüllenden Mainact in Bars bis zur kurzen Auflockerung bei
+                                Firmenfeiern.
+                                Natürlich alles improvisiert und niemals vorbereitet. Wenn Du uns buchen möchtest,
+                                dann
+                                schicken Sie uns einfach eine Kontaktanfrage.</p>
+                        </div>
+                        <a href="mailto:schwarzpulver-htwk@web.de" class="red ui huge button"><i
+                                    class="mail icon"></i>Buchen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="impressum" class="section">
+    <div class="ui text container">
+        <div class="ui inverted segment">
+            <div class="ui fluid inverted accordion">
+                <div class="title">
+                    <h3 class="ui dividing inverted header"><i class="dropdown icon"></i>
+                        IMPRESSUM</h3>
+                </div>
+                <div class="content">
+                    <p>Franz Anders, Hardenbergstr. 34, 04275 Leipzig, schwarzpulver-htwk@web.de</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
